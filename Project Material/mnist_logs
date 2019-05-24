@@ -1,0 +1,158 @@
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ vii mnist_64.py
+No command 'vii' found, but there are 32 similar ones
+vii: command not found
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ vi mnist_64.py
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ vi mnist_16.py
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ python3 mnist_16.py 
+/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+2017-12-05 20:30:21.892513: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-05 20:30:22.006155: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-05 20:30:22.006615: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1e.0
+totalMemory: 15.77GiB freeMemory: 15.36GiB
+2017-12-05 20:30:22.006646: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1e.0, compute capability: 7.0)
+Training Step:0  Accuracy =  0.0931  Loss = 2.2969  Time = 2017-12-05 20:30:22.996327
+Training Step:1000  Accuracy =  0.9257  Loss = 1.5215  Time = 2017-12-05 20:30:25.135254
+Training Step:2000  Accuracy =  0.9392  Loss = 1.5137  Time = 2017-12-05 20:30:27.312391
+Training Step:3000  Accuracy =  0.9485  Loss = 1.4883  Time = 2017-12-05 20:30:29.507811
+Training Step:4000  Accuracy =  0.9505  Loss = 1.5107  Time = 2017-12-05 20:30:31.683534
+Training Step:5000  Accuracy =  0.9488  Loss = 1.5127  Time = 2017-12-05 20:30:33.911676
+Training Step:6000  Accuracy =  0.9551  Loss = 1.4854  Time = 2017-12-05 20:30:35.996180
+Training Step:7000  Accuracy =  0.9525  Loss = 1.5068  Time = 2017-12-05 20:30:38.206382
+Training Step:8000  Accuracy =  0.9551  Loss = 1.5176  Time = 2017-12-05 20:30:40.392120
+Training Step:9000  Accuracy =  0.9571  Loss = 1.4717  Time = 2017-12-05 20:30:42.566755
+Training Step:10000  Accuracy =  0.9543  Loss = 1.4863  Time = 2017-12-05 20:30:44.735099
+Training Step:11000  Accuracy =  0.9577  Loss = 1.4814  Time = 2017-12-05 20:30:46.925791
+Training Step:12000  Accuracy =  0.9567  Loss = 1.4766  Time = 2017-12-05 20:30:49.046202
+Training Step:13000  Accuracy =  0.9592  Loss = 1.4746  Time = 2017-12-05 20:30:51.266280
+Training Step:14000  Accuracy =  0.9625  Loss = 1.4893  Time = 2017-12-05 20:30:53.459815
+Training Step:15000  Accuracy =  0.9583  Loss = 1.4707  Time = 2017-12-05 20:30:55.657769
+Training Step:16000  Accuracy =  0.9625  Loss = 1.502  Time = 2017-12-05 20:30:57.821451
+Training Step:17000  Accuracy =  0.9547  Loss = 1.4912  Time = 2017-12-05 20:30:59.953330
+Training Step:18000  Accuracy =  0.9574  Loss = 1.4814  Time = 2017-12-05 20:31:02.132969
+Training Step:19000  Accuracy =  0.9593  Loss = 1.4824  Time = 2017-12-05 20:31:04.327997
+Training Step:20000  Accuracy =  0.9597  Loss = 1.4658  Time = 2017-12-05 20:31:06.521477
+Program Start Time =  2017-12-05 20:30:21.627365   Program Completion Time =  2017-12-05 20:31:06.521523   Total Time Elapsed =  0:00:44.894158
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ vi mnist_32.py
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ python3 mnist_32.py 
+/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+2017-12-05 20:32:10.588472: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-05 20:32:10.694457: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-05 20:32:10.694955: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1e.0
+totalMemory: 15.77GiB freeMemory: 15.36GiB
+2017-12-05 20:32:10.694992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1e.0, compute capability: 7.0)
+Training Step:0  Accuracy =  0.1167  Loss = 2.26489  Time = 2017-12-05 20:32:11.645752
+Training Step:1000  Accuracy =  0.9328  Loss = 1.51595  Time = 2017-12-05 20:32:13.243585
+Training Step:2000  Accuracy =  0.944  Loss = 1.4959  Time = 2017-12-05 20:32:14.950669
+Training Step:3000  Accuracy =  0.9484  Loss = 1.48574  Time = 2017-12-05 20:32:16.613350
+Training Step:4000  Accuracy =  0.953  Loss = 1.48177  Time = 2017-12-05 20:32:18.308108
+Training Step:5000  Accuracy =  0.9556  Loss = 1.48713  Time = 2017-12-05 20:32:19.984415
+Training Step:6000  Accuracy =  0.9589  Loss = 1.47172  Time = 2017-12-05 20:32:21.591562
+Training Step:7000  Accuracy =  0.9587  Loss = 1.484  Time = 2017-12-05 20:32:23.255138
+Training Step:8000  Accuracy =  0.9585  Loss = 1.48101  Time = 2017-12-05 20:32:24.913694
+Training Step:9000  Accuracy =  0.957  Loss = 1.49384  Time = 2017-12-05 20:32:26.592860
+Training Step:10000  Accuracy =  0.9599  Loss = 1.50164  Time = 2017-12-05 20:32:28.289705
+Training Step:11000  Accuracy =  0.9617  Loss = 1.48081  Time = 2017-12-05 20:32:29.985584
+Training Step:12000  Accuracy =  0.9596  Loss = 1.49111  Time = 2017-12-05 20:32:31.618080
+Training Step:13000  Accuracy =  0.959  Loss = 1.48515  Time = 2017-12-05 20:32:33.276189
+Training Step:14000  Accuracy =  0.9627  Loss = 1.47311  Time = 2017-12-05 20:32:34.977689
+Training Step:15000  Accuracy =  0.9567  Loss = 1.47233  Time = 2017-12-05 20:32:36.674858
+Training Step:16000  Accuracy =  0.9603  Loss = 1.47196  Time = 2017-12-05 20:32:38.355915
+Training Step:17000  Accuracy =  0.9625  Loss = 1.48324  Time = 2017-12-05 20:32:39.940054
+Training Step:18000  Accuracy =  0.9626  Loss = 1.46569  Time = 2017-12-05 20:32:41.624363
+Training Step:19000  Accuracy =  0.9584  Loss = 1.47948  Time = 2017-12-05 20:32:43.288268
+Training Step:20000  Accuracy =  0.9647  Loss = 1.52592  Time = 2017-12-05 20:32:44.989642
+Program Start Time =  2017-12-05 20:32:10.324060   Program Completion Time =  2017-12-05 20:32:44.989688   Total Time Elapsed =  0:00:34.665628
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ vi mnist_64.py
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ python3 mnist_64.py 
+/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+2017-12-05 20:33:35.558012: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-05 20:33:35.661898: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-05 20:33:35.662353: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1e.0
+totalMemory: 15.77GiB freeMemory: 15.36GiB
+2017-12-05 20:33:35.662383: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1e.0, compute capability: 7.0)
+Training Step:0  Accuracy =  0.1044  Loss = 2.29924875202  Time = 2017-12-05 20:33:36.629673
+Training Step:1000  Accuracy =  0.9341  Loss = 1.50508736791  Time = 2017-12-05 20:33:38.423876
+Training Step:2000  Accuracy =  0.946  Loss = 1.49514751572  Time = 2017-12-05 20:33:40.291464
+Training Step:3000  Accuracy =  0.952  Loss = 1.53290968166  Time = 2017-12-05 20:33:42.139428
+Training Step:4000  Accuracy =  0.9491  Loss = 1.4949268146  Time = 2017-12-05 20:33:43.982510
+Training Step:5000  Accuracy =  0.955  Loss = 1.51194726663  Time = 2017-12-05 20:33:45.852053
+Training Step:6000  Accuracy =  0.9551  Loss = 1.48218498925  Time = 2017-12-05 20:33:47.624059
+Training Step:7000  Accuracy =  0.9557  Loss = 1.49943232807  Time = 2017-12-05 20:33:49.496428
+Training Step:8000  Accuracy =  0.9503  Loss = 1.50721768516  Time = 2017-12-05 20:33:51.357454
+Training Step:9000  Accuracy =  0.9588  Loss = 1.48039496347  Time = 2017-12-05 20:33:53.230654
+Training Step:10000  Accuracy =  0.9576  Loss = 1.50895669148  Time = 2017-12-05 20:33:55.120938
+Training Step:11000  Accuracy =  0.9595  Loss = 1.50335540191  Time = 2017-12-05 20:33:56.989799
+Training Step:12000  Accuracy =  0.958  Loss = 1.4988561488  Time = 2017-12-05 20:33:58.789975
+Training Step:13000  Accuracy =  0.9628  Loss = 1.48281254002  Time = 2017-12-05 20:34:00.646307
+Training Step:14000  Accuracy =  0.9635  Loss = 1.47207783114  Time = 2017-12-05 20:34:02.515362
+Training Step:15000  Accuracy =  0.961  Loss = 1.49410767165  Time = 2017-12-05 20:34:04.383010
+Training Step:16000  Accuracy =  0.961  Loss = 1.49003393788  Time = 2017-12-05 20:34:06.231162
+Training Step:17000  Accuracy =  0.9654  Loss = 1.48128425816  Time = 2017-12-05 20:34:08.023826
+Training Step:18000  Accuracy =  0.9594  Loss = 1.48084475447  Time = 2017-12-05 20:34:09.865226
+Training Step:19000  Accuracy =  0.9614  Loss = 1.48476966053  Time = 2017-12-05 20:34:11.698848
+Training Step:20000  Accuracy =  0.9594  Loss = 1.50065264104  Time = 2017-12-05 20:34:13.563284
+Program Start Time =  2017-12-05 20:33:35.295234   Program Completion Time =  2017-12-05 20:34:13.563331   Total Time Elapsed =  0:00:38.268097
+(tensorflow_p36) ubuntu@ip-172-31-6-68:~$ 
+
