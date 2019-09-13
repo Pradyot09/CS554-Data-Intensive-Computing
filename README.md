@@ -1,2 +1,3 @@
-# CS554-Data-Intensive-Computing
-CS554 Data Intensive Computing
+# Data-Intensive-Computing
+
+## Data Intensive Computing
